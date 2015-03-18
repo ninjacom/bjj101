@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link href="css/index.css" type="text/css" rel="stylesheet" />
+        <link href="css/bootstrap-responsive.css" type="text/css" rel="stylesheet" />
+        <link href="css/bootstrap-responsive.min.css" type="text/css" rel="stylesheet" />
+        <link href="css/bootstrap.css" type="text/css" rel="stylesheet" />
+        <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+        
+
+        <title>BJJ 101</title>
+    </head>
+    
+    <body>
+        
+        <header>
+            
+            <div class="nav navbar-inverse nav-pills" role="navigation">
+                <div class="dropdown col-xs-2 col-sm-2">
+                    <a id="dLabel" class="dropdown-toggle" data-toggle="dropdown" data-target="#" aria-haspopup="true" role="button" aria-expanded="false">
+                        <img src="/hello/www/img/settings.png" class="menuIcon"/>
+                        
+                    </a>
+                    <ul class="dropdown-menu" data-toggle="dropdown" role="menu" aria-labelledby="dLabel">
+                        <a href="/hello/www/index.html"><h3>Welcome</h3></a>
+                        <a href="breakdowns/armbar.html"><h3>Videos</h3></a>
+                        <a href="#"><h3>Favorites</h3></a>
+                        <a href="#"><h3>Full Version</h3></a>
+                        <a href="#"><h3>Apps</h3></a>
+                        <a href="#"><h3>About</h3></a>
+                        <a href="#"><h3>Contact</h3></a>
+                        <a href="#"><h3>Rate This App</h3></a>
+                        <a href="#"><h3>Share This App</h3></a>
+                        <a href="#"><h3>Like On Facebook<img src="img/facebook_icon_small.png" width="20"></h3></a>
+                        <a href="#"><h3>Restore Purchases</h3></a>
+                    </ul>
+                </div>
+                <h1 class="header col-xs-10 col-sm-10">BJJ 101</h1>
+            </div>
+        </header>
+        
+        
+        <div class="container-fluid">
+            
+            <div class="row" id="americana">
+                <h3 class="moveName">Americana</h3>
+                <img class="img-responsive img-circle animated-gif col-xs-9 col-sm-9 col-md-8" src="gif/101%20americana%20mount.gif"/>
+                <div class="col-xs-3 col-sm-3 col-md-4">
+                    <a href="breakdowns/americana.html">
+                        <img class="playBreakdownBtn img-responsive" src="img/playBtn.png"" onclick="breakdowns/americana.html"/>
+                    </a>
+                    <img class="favoriteBtn img-responsive"/>
+                </div>
+            </div>
+            
+            
+            <div class="row" id="back control from mount">
+                <h3 class="moveName">Back Control</h3>
+                <img class="img-responsive img-circle animated-gif col-xs-9 col-sm-9 col-md-8" src="gif/101%20back%20control%20from%20mount.gif"/>
+                <div class="col-xs-3 col-sm-3 col-md-4">
+                    <a href="breakdowns/back_control_from_mount.html">
+                        <img class="playBreakdownBtn img-responsive" src="img/playBtn.png" onclick="breakdowns/back_control_from_mount.html"/>
+                    </a>
+                    <img class="favoriteBtn img-responsive"/>
+                </div>
+            </div>
+            
+            
+            <div class="row" id="balon sweep">
+                <h3 class="moveName">Balon Sweep</h3>
+                <img class="img-responsive img-circle animated-gif col-xs-9 col-sm-9 col-md-8" src="gif/101%20balon%20sweep.gif"/>
+                <div class="col-xs-3 col-sm-3 col-md-4">
+                    <a href="breakdowns/balon_sweep.html">
+                        <img class="playBreakdownBtn img-responsive" src="img/playBtn.png" onclick="breakdowns/balon_sweep.html"/>
+                    </a>
+                    <img class="favoriteBtn img-responsive"/>
+                </div>
+            </div>
+            
+            <div class="row" id="choke from guard">
+                <h3 class="moveName">Guard Choke</h3>
+                <img class="img-responsive img-circle animated-gif col-xs-9 col-sm-9 col-md-8 " src="gif/101%20choke%20from%20guard.gif"/>
+                <div class="col-xs-3 col-sm-3 col-md-4">
+                    <a href="breakdowns/choke_from_guard.html">
+                        <img class="playBreakdownBtn img-responsive" onclick="breakdowns/choke_from_guard.html"/>
+                    </a>
+                    <img class="favoriteBtn img-responsive"/>
+                </div>
+            </div>
+            
+            
+            
+        </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+        
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+        
+    </body>
+</html>
